@@ -1,0 +1,38 @@
+---
+title: "I AM TIRED & SLEEPY"
+author: "Pao Ying Heng"
+date: "October 18, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## My New Slide
+Hello
+
+*** 
+no header
+
+##New slide
+- bullet 1
+- bullet 2
+
+1. item 1
+2. item2 
+
+*italics*
+
+**bold**
+
+`for (i %in% 1:10)`
+<http://www.google.com>
+
+
+##Coding time!
+```{r, comments="", fig.align='center', fig.cap='My plot'}
+plot(mtcars$wt, mtcars$mpg, xlab="weight", ylab="mpg")
+```
+
+
